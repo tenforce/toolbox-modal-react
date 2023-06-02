@@ -1,0 +1,20 @@
+# don't ever lint node_modules, build, mock and dist
+node_modules/
+build/
+dist/
+dist-lib/
+dist-example/
+__mocks__
+build
+# don't lint nyc coverage output
+coverage
+
+# useless file
+src/react-app-env.d.ts
+
+gulpfile.js
+webpack.config.js
+*.js
+
+# example page has its own linting
+example
